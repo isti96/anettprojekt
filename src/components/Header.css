@@ -1,0 +1,62 @@
+.header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(103, 239, 239);
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    padding: 10px
+}
+
+.name-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 40px;
+}
+
+.welcome-text {
+    font-size: 35px;
+}
+
+.menubar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#menubar-user {
+    height: 30px;
+    width: 30px;
+}
+
+.navbar-container {
+    background-color: blue;
+}
+
+.navbar-button {
+    width: 100px;
+    height: 59px;
+    font-size: 18px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(8, 59, 8);
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    color: black;
+    background-color:aquamarine;
+    font-family: 'Oswald';
+    margin-right: 30px;
+}
